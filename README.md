@@ -1,12 +1,12 @@
 # CalculateMaxSum
-##Solution  
-     *The input was taken from the file and stored in 2D array
-     *Bottom-up approach is used using dynamic programming 
-     *Devided the problem to subproblems and idea is to store the solutions of the subproblems in an another array
-     *Initialized another 2D array (modified_array) to store each iteration's possible value by checking prime state of the number 
-     *Each time moving upwards and by calculating the max possible way and store it in an array named after modified_array
+## Solution  
+     * The input was taken from the file and stored in 2D array
+     * Bottom-up approach is used using dynamic programming 
+     * Devided the problem to subproblems and idea is to store the solutions of the subproblems in an another array
+     * Initialized another 2D array (modified_array) to store each iteration's possible value by checking prime state of the number 
+     * Each time moving upwards and by calculating the max possible way and store it in an array named after modified_array
 
-##Question: You will have an orthogonal triangle input from a file and you need to find the maximum sum of the numbers according to given rules below;
+## Question: You will have an orthogonal triangle input from a file and you need to find the maximum sum of the numbers according to given rules below;
 
 1. You will start from the top and move downwards to an adjacent number as in below.
 2. You are only allowed to walk downwards and diagonally.
@@ -25,7 +25,7 @@ As you can see this has several paths that fits the rule of NOT PRIME NUMBERS; 1
 1 + 8 + 6 + 9 = 24.  As you see 1, 8, 6, 9 are all NOT PRIME NUMBERS and walking over these yields the maximum sum.
 
 
-###TestCase: According to assignment that you implemented what is the maximum sum of below input? It means please take this input (as file or constants directly inside the code) for your implementation and solve by using it.
+### TestCase: According to assignment that you implemented what is the maximum sum of below input? It means please take this input (as file or constants directly inside the code) for your implementation and solve by using it.
 ```
 215
 193 124
