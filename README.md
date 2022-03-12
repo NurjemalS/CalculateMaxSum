@@ -1,10 +1,10 @@
 # CalculateMaxSum
 Solution  
-     * The input was taken from the file and stored in 2D array
-     * Bottom-up approach is used using dynamic programming 
-     * Devided the problem to subproblems and idea is to store the solutions of the subproblems in an another array
-     * Initialized another 2D array (modified_array) to store each iteration's possible value by checking prime state of the number 
-     * Each time moving upwards and by calculating the max possible way and store it in an array named after modified_array
+     - The input was taken from the file and stored in 2D array
+     - Bottom-up approach is used using dynamic programming 
+     - Devided the problem to subproblems and idea is to store the solutions of the subproblems in an another array
+     - Initialized another 2D array (modified_array) to store each iteration's possible value by checking prime state of the number 
+     - Each time moving upwards and by calculating the max possible way and store it in an array named after modified_array
 
 Question: You will have an orthogonal triangle input from a file and you need to find the maximum sum of the numbers according to given rules below;
 
