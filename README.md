@@ -6,7 +6,7 @@ Solution
      -Initialized another 2D array (modified_array) to store each iteration's possible value by checking prime state of the number 
      -Each time moving upwards and by calculating the max possible way and store it in an array named after modified_array
 
-*Question: You will have an orthogonal triangle input from a file and you need to find the maximum sum of the numbers according to given rules below;
+Question: You will have an orthogonal triangle input from a file and you need to find the maximum sum of the numbers according to given rules below;
 
 1. You will start from the top and move downwards to an adjacent number as in below.
 2. You are only allowed to walk downwards and diagonally.
